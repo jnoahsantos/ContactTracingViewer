@@ -50,7 +50,7 @@ namespace ContactTracingViewer
             this.listBox.ItemHeight = 19;
             this.listBox.Location = new System.Drawing.Point(25, 196);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(466, 118);
+            this.listBox.Size = new System.Drawing.Size(523, 175);
             this.listBox.TabIndex = 3;
             // 
             // btnViewData
@@ -58,7 +58,7 @@ namespace ContactTracingViewer
             this.btnViewData.BackColor = System.Drawing.Color.DeepPink;
             this.btnViewData.FlatAppearance.BorderSize = 0;
             this.btnViewData.Font = new System.Drawing.Font("Cooper Black", 13F);
-            this.btnViewData.Location = new System.Drawing.Point(217, 4);
+            this.btnViewData.Location = new System.Drawing.Point(253, 2);
             this.btnViewData.Name = "btnViewData";
             this.btnViewData.Size = new System.Drawing.Size(94, 30);
             this.btnViewData.TabIndex = 4;
@@ -71,7 +71,7 @@ namespace ContactTracingViewer
             this.labelTitle1.AutoSize = true;
             this.labelTitle1.Font = new System.Drawing.Font("Cooper Black", 25F);
             this.labelTitle1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelTitle1.Location = new System.Drawing.Point(12, 22);
+            this.labelTitle1.Location = new System.Drawing.Point(27, 21);
             this.labelTitle1.Name = "labelTitle1";
             this.labelTitle1.Size = new System.Drawing.Size(522, 39);
             this.labelTitle1.TabIndex = 5;
@@ -143,7 +143,7 @@ namespace ContactTracingViewer
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(542, 92);
+            this.panel1.Size = new System.Drawing.Size(576, 92);
             this.panel1.TabIndex = 9;
             // 
             // panel2
@@ -151,9 +151,9 @@ namespace ContactTracingViewer
             this.panel2.BackColor = System.Drawing.Color.PaleVioletRed;
             this.panel2.Controls.Add(this.btnViewData);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 333);
+            this.panel2.Location = new System.Drawing.Point(0, 375);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(542, 37);
+            this.panel2.Size = new System.Drawing.Size(576, 37);
             this.panel2.TabIndex = 10;
             // 
             // Form1
@@ -161,7 +161,7 @@ namespace ContactTracingViewer
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.ClientSize = new System.Drawing.Size(542, 370);
+            this.ClientSize = new System.Drawing.Size(576, 412);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnSearch);
