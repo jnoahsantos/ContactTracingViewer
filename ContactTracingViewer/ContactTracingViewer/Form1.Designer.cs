@@ -29,6 +29,7 @@ namespace ContactTracingViewer
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.listBox = new System.Windows.Forms.ListBox();
             this.btnViewData = new System.Windows.Forms.Button();
             this.labelTitle1 = new System.Windows.Forms.Label();
@@ -170,6 +171,7 @@ namespace ContactTracingViewer
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing Data Viewer";
